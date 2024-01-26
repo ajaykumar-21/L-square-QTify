@@ -1,20 +1,13 @@
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 1440px;
-  height: 270px;
-  flex-shrink: 0;
-  gap: 3rem;
+.hero {
   background-color: var(--color-black);
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
 }
 
-.heroHeading {
+h1{
   color: var(--color-white);
-  text-align: center;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
 }
