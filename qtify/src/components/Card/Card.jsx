@@ -13,12 +13,12 @@ function Card({ data, type }) {
             <Link to={`/album/${slug}`}>
               <div className={styles.wrapper}>
                 <div className={styles.card}>
-                  <img src={image} alt="ablum" loading="lazy" />
+                  <img src={image} alt="album" />
                   <div className={styles.banner}>
                     <Chip
                       label={`${follows} Follows`}
-                      size="small"
                       className={styles.chip}
+                      size="small"
                     />
                   </div>
                 </div>

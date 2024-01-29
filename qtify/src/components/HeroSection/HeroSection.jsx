@@ -1,14 +1,15 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
-import { ReactComponent as VibratingHeadphone } from "../../assests/vibrating-headphone.svg";
+import HeroImage from "../../assests/vibratingheadphone.png";
+
 function HeroSection() {
   return (
-    <div className={styles.HeroContainer}>
-      <div className={styles.HeroText}>
-        <div>100 Thousand Songs, ad-free</div>
-        <div>Over thousands podcast episodes</div>
+    <div className={styles.Hero}>
+      <div className={styles.HeroTitle}>
+        <h1>100 Thousand Songs, ad-free</h1>
+        <h1>Over thousands podcast episodes</h1>
       </div>
-      <VibratingHeadphone />
+      <img className={styles.HeroImage} src={HeroImage} alt="headphone" />
     </div>
   );
 }
