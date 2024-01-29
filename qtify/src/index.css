@@ -21,8 +21,9 @@ body {
 body {
   font-family: "poppins", sans-serif;
   line-height: 1.5;
-  -webkit-font-smothing: antialiased;
+  -webkit-font-smoothing: antialiased;
   background-color: var(--color-black);
+  color: var(--color-white);
   overflow-x: hidden;
 }
 
