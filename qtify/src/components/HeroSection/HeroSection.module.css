@@ -1,13 +1,17 @@
-.hero {
-  background-color: var(--color-black);
+.HeroContainer {
   height: 270px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
-  gap: 30px;
+  justify-content: center;
+  gap: 3rem;
+  color: #fff;
 }
 
-h1{
-  color: var(--color-white);
+.HeroText {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
