@@ -21,7 +21,7 @@ function Carousel({ data, renderComponent }) {
     <div className={styles.wrapper}>
       <Swiper
         style={{ padding: "0px 20 px" }}
-        initialState={0}
+        // initialState={0}
         modules={[Navigation]}
         spaceBetween={40}
         slidesPerView={"auto"}
@@ -30,8 +30,8 @@ function Carousel({ data, renderComponent }) {
         <Controls data={data} />
         <CarouselLeftNavigation />
         <CarouselRightNavigation />
-        {data.map((ele) => (
-          <SwiperSlide>{renderComponent(ele)}</SwiperSlide>
+        {data.map((ele, idx) => (
+          <SwiperSlide key={idx}>{renderComponent(ele)}</SwiperSlide>
         ))}
       </Swiper>
     </div>

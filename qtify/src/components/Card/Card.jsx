@@ -4,7 +4,6 @@ import { Chip, Tooltip } from "@mui/material";
 import { Link } from "react-router-dom";
 
 function Card({ data, type }) {
-  console.log(data, type);
   const getCard = (type) => {
     switch (type) {
       case "album": {
