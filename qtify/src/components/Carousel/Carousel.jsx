@@ -20,7 +20,7 @@ function Carousel({ data, renderComponent }) {
   return (
     <div className={styles.wrapper}>
       <Swiper
-        style={{ padding: "0px 20 px" }}
+        style={{ padding: "0px 20px" }}
         // initialState={0}
         modules={[Navigation]}
         spaceBetween={40}
